@@ -1,3 +1,9 @@
+# revision 23089
+# category TLCore
+# catalog-ctan /web/c_cpp/ctie
+# catalog-date 2011-04-16 11:10:37 +0200
+# catalog-license gpl
+# catalog-version 1.1
 Name:		texlive-ctie
 Version:	1.1
 Release:	1
@@ -22,6 +28,7 @@ This is a version of tie converted for use with cweb.
 %files
 %doc %{_mandir}/man1/ctie.1*
 %doc %{_texmfdir}/doc/man/man1/ctie.man1.pdf
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -34,3 +41,5 @@ mkdir -p %{buildroot}%{_datadir}
 cp -fpar texmf %{buildroot}%{_datadir}
 mkdir -p %{buildroot}%{_mandir}/man1
 mv %{buildroot}%{_texmfdir}/doc/man/man1/*.1 %{buildroot}%{_mandir}/man1
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
