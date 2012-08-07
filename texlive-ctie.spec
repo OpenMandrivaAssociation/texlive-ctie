@@ -1,4 +1,4 @@
-# revision 23089
+# revision 26689
 # category TLCore
 # catalog-ctan /web/c_cpp/ctie
 # catalog-date 2011-04-16 11:10:37 +0200
@@ -6,7 +6,7 @@
 # catalog-version 1.1
 Name:		texlive-ctie
 Version:	1.1
-Release:	2
+Release:	3
 Summary:	C version of tie (merging Web change files)
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/web/c_cpp/ctie
