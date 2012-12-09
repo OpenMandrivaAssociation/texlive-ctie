@@ -1,4 +1,4 @@
-# revision 26689
+# revision 23089
 # category TLCore
 # catalog-ctan /web/c_cpp/ctie
 # catalog-date 2011-04-16 11:10:37 +0200
@@ -6,7 +6,7 @@
 # catalog-version 1.1
 Name:		texlive-ctie
 Version:	1.1
-Release:	3
+Release:	2
 Summary:	C version of tie (merging Web change files)
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/web/c_cpp/ctie
@@ -38,3 +38,17 @@ mkdir -p %{buildroot}%{_datadir}
 cp -fpar texmf %{buildroot}%{_datadir}
 mkdir -p %{buildroot}%{_mandir}/man1
 mv %{buildroot}%{_texmfdir}/doc/man/man1/*.1 %{buildroot}%{_mandir}/man1
+
+
+%changelog
+* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 1.1-2
++ Revision: 750686
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 1.1-1
++ Revision: 718183
+- texlive-ctie
+- texlive-ctie
+- texlive-ctie
+- texlive-ctie
+
