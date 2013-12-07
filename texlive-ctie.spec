@@ -6,7 +6,7 @@
 # catalog-version 1.1
 Name:		texlive-ctie
 Version:	1.1
-Release:	6
+Release:	7
 Summary:	C version of tie (merging Web change files)
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/web/c_cpp/ctie
