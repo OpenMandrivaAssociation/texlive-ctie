@@ -1,18 +1,12 @@
-# revision 33736
-# category TLCore
-# catalog-ctan /web/c_cpp/ctie
-# catalog-date 2014-02-26 23:03:13 +0100
-# catalog-license gpl
-# catalog-version 1.1
 Name:		texlive-ctie
-Version:	1.1
-Release:	13
+Version:	62387
+Release:	1
 Summary:	C version of tie (merging Web change files)
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/web/c_cpp/ctie
 License:	GPL
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/ctie.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/ctie.doc.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/ctie.r%{version}.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/ctie.doc.r%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
@@ -29,7 +23,7 @@ This is a version of tie converted for use with cweb.
 
 #-----------------------------------------------------------------------
 %prep
-%setup -c -a0 -a1
+%autosetup -p1 -c -a1
 
 %build
 
