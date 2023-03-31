@@ -1,6 +1,6 @@
 Name:		texlive-ctie
 Version:	62387
-Release:	1
+Release:	2
 Summary:	C version of tie (merging Web change files)
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/web/c_cpp/ctie
