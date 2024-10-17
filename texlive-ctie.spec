@@ -3,7 +3,7 @@ Version:	70015
 Release:	1
 Summary:	C version of tie (merging Web change files)
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/web/c_cpp/ctie
+URL:		https://www.ctan.org/tex-archive/web/c_cpp/ctie
 License:	GPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/ctie.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/ctie.doc.r%{version}.tar.xz
