@@ -13,8 +13,6 @@ Source0:	https://mirrors.ctan.org/systems/texlive/tlnet/archive/ctie.r%{tl_revis
 Source1:	https://mirrors.ctan.org/systems/texlive/tlnet/archive/ctie.doc.r%{tl_revision}.tar.xz
 BuildArch:	noarch
 BuildSystem:	texlive
-BuildRequires:	texlive-tlpkg
-%texlive_base_requires
 Requires:	texlive(ctie.bin)
 Requires:	texlive(kpathsea)
 Provides:	texlive(%{tl_name}) = %{tl_revision}
